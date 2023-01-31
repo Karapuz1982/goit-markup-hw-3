@@ -24,7 +24,7 @@
     --txt-backgnd-logo-cl: #f4f4fd;
     --prymery-txt-backgnd-cl: #ffffff;
     --secondy-txt-backgnd-cl: #e7e9fc;
-
+    --backgnd-team: #f4f4fd;
     /* color btn */
     --btn-link-cl: #ffffff;
     --btn-backgnd-cl: #404bbf;
@@ -70,10 +70,11 @@ img {
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .section {
-    padding: 120px 0 120px;
+    padding: 120px 0;
 }
 
 .container {
@@ -111,6 +112,7 @@ img {
     text-transform: uppercase;
     color: var(--secondy-txt-cl);
     margin-right: 76px;
+    font-style: normal;
 }
 
 .addition {
@@ -127,18 +129,10 @@ img {
     margin-right: 40px;
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--secondy-txt-cl);
-}
 
-.addition:hover,
-.addition:focus {
-    color: var(--akcent-txt-cl);
-}
 
 .menu-link {
-    font-family: var(--prymery-fonts);
+
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -164,56 +158,42 @@ img {
 }
 
 
-.email {
-    font-family: var(--prymery-fonts);
+.address-hdr {
+
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
-
+    font-style: normal;
     color: var(--prymery-txt-cl);
 
 }
 
-.number-phone {
-    font-family: var(--prymery-fonts);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(24 / 16);
 
-    color: var(--prymery-txt-cl);
-}
 
-.email:hover,
-.email:focus {
+.address-hdr:hover,
+.address-hdr:focus {
+    color: var(--color-ocean);
     color: var(--color-ocean);
 }
 
-.number-phone:hover,
-.number-phone:focus {
-    color: var(--color-ocean);
-}
+
 
 /* ==================/header=========== */
 
 /* =============hero============ */
-.hero-section {
-    padding: 191px 0 185px;
-}
+
 
 .hero {
     background: var(--backgnd-cl);
 }
 
 .conteiner-hero {
-    padding: 188px 0 188px;
+    padding: 191px 0 185px;
 }
 
 .hero-title {
     width: 494px;
-    height: 120px;
-    left: 473px;
-    top: 260px;
-    font-family: var(--prymery-fonts);
+
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
@@ -228,10 +208,10 @@ img {
 
 
     padding: 16px 32px;
-    background: #4d5ae5;
+    background: var(--color-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: var(--prymery-fonts);
+
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -277,8 +257,6 @@ img {
 
 .task {
     display: flex;
-    justify-content: space-between;
-
     gap: 24px;
 }
 
@@ -288,7 +266,8 @@ img {
 .title-task {
     margin-left: auto;
     margin-right: auto;
-    font-family: var(--prymery-fonts);
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 /20);
@@ -299,7 +278,7 @@ img {
 
 .task-descript {
 
-    font-family: var(--prymery-fonts);
+
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24 /16);
@@ -311,10 +290,14 @@ img {
 
 
 /* =================gallery============== */
+.gallery-sectn {
+    padding-bottom: 120px;
+}
+
 .gallery-presentation {
 
     margin-bottom: 72px;
-    font-family: var(--prymery-fonts);
+
     font-weight: 700;
     font-size: 36px;
     line-height: calc(40 / 36);
@@ -328,7 +311,7 @@ img {
 .presentation {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+
 }
 
 .list-img {
@@ -339,27 +322,35 @@ img {
 
 /* ===========team============ */
 .team {
-    background: #F4F4FD;
+    background: var(--backgnd-team);
 }
-
 
 
 .team-img {
     display: flex;
-    flex-wrap: wrap;
-
     gap: 24px;
+
 }
+
+.card {
+    background-color: var(--color-white);
+    max-width: 264px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+
+
 
 .name {
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .profesion {
     text-align: center;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .title-descript {
@@ -372,6 +363,7 @@ img {
 
 /* ============footer================== */
 .logo-footer {
+    display: block;
     font-family: var(--secondy-fonts);
     font-weight: 800;
     font-size: 18px;
@@ -388,10 +380,7 @@ img {
     padding: 100px 0 100px;
 }
 
-.logo-footer:hover,
-.logo-footer:focus {
-    color: var(--txt-backgnd-logo-cl);
-}
+
 
 .addition-footer {
     font-family: var(--secondy-fonts);
@@ -404,11 +393,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--txt-backgnd-logo-cl);
-}
 
-.addition-footer:hover,
-.addition-footer:focus {
-    color: var(--txt-backgnd-logo-cl);
 }
 
 
@@ -417,7 +402,7 @@ img {
 .slogan {
     width: 264px;
     height: 72px;
-    font-family: var(--prymery-fonts);
+
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -460,7 +445,7 @@ img {
 
 
 
-    font-family: var(--prymery-fonts);
+
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -489,7 +474,7 @@ img {
     border: 1px solid var(--color-iris);
     border-radius: 4px;
 
-    font-family: var(--prymery-fonts);
+
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -524,8 +509,8 @@ img {
     border-radius: 4px;
 
 
-    font-family: var(--prymery-fonts);
-    font-style: normal;
+
+
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -561,7 +546,6 @@ img {
 
 
 
-    font-family: var(--prymery-fonts);
 
     font-weight: 500;
     font-size: 16px;
@@ -597,8 +581,7 @@ img {
 
 
 
-    font-family: var(--prymery-fonts);
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 /16);
@@ -623,15 +606,11 @@ img {
     gap: 48px 24px;
 }
 
-.brd {
-    border-left: 1px solid #4D5AE5;
-    border-right: 1px solid #4D5AE5;
-}
+
 
 .brd-clr {
-    border-bottom: 1px solid #4D5AE5;
-    border-left: 1px solid #4D5AE5;
-    border-right: 1px solid #4D5AE5;
+    border: 1px solid var(--color-iris);
+    border-top: none;
 }
 
 
@@ -647,7 +626,7 @@ img {
 /* ===============/filtr=================== */
 /* =============footer portfolio========= */
 .color-text {
-    font-family: var(--prymery-fonts);
+
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
