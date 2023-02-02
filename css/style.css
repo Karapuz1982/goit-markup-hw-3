@@ -353,13 +353,11 @@ img {
     margin-bottom: 32px;
 }
 
-.title-descript {
-    padding: 32px 0 8px 16px;
-}
 
-.use {
-    padding: 0 0 32px 16px;
-}
+
+
+
+
 
 /* ============footer================== */
 .logo-footer {
@@ -415,7 +413,7 @@ img {
 
 /* ====================filtr=========== */
 .brd-header {
-    border-bottom: 1px solid var(--color-iris);
+    border-bottom: 1px solid var(--color-cornflower);
 }
 
 .filtr-container {
@@ -429,176 +427,31 @@ img {
     gap: 24px;
 }
 
-.btn-all {
+.btn-portfolio {
     box-sizing: border-box;
-
-
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-
-
     background: var(--txt-backgnd-logo-cl);
-    border: 1px solid var(--color-iris);
-
-
-
-
-
+    border: none;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
-
     align-items: center;
     text-align: center;
     color: var(--btn-backgnd-cl);
     cursor: pointer;
 }
 
-.btn-all:hover,
-.btn-all:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
     background-color: var(--btn-backgnd-cl);
     color: var(--btn-link-cl);
 }
 
-.btn-web {
-    box-sizing: border-box;
 
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-
-    background: var(--txt-backgnd-logo-cl);
-    border: 1px solid var(--color-iris);
-    border-radius: 4px;
-
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24 / 16);
-
-    align-items: center;
-    text-align: center;
-
-    color: var(--btn-backgnd-cl);
-
-    cursor: pointer;
-}
-
-.btn-web:hover,
-.btn-web:focus {
-    background-color: var(--btn-backgnd-cl);
-    color: var(--btn-link-cl);
-}
-
-.btn-app {
-    box-sizing: border-box;
-
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    padding: 12px 24px;
-
-
-
-    background: var(--txt-backgnd-logo-cl);
-    border: 1px solid var(--color-iris);
-    border-radius: 4px;
-
-
-
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24 / 16);
-
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--btn-backgnd-cl);
-
-    cursor: pointer;
-}
-
-.btn-app:hover,
-.btn-app:focus {
-    background-color: var(--btn-backgnd-cl);
-    color: var(--btn-link-cl);
-}
-
-.btn--design {
-    box-sizing: border-box;
-
-
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-
-
-
-    background: var(--txt-backgnd-logo-cl);
-    border: 1px solid var(--color-iris);
-    border-radius: 4px;
-
-
-
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24 / 16);
-
-    align-items: center;
-    text-align: center;
-
-    color: var(--btn-backgnd-cl);
-    cursor: pointer;
-}
-
-.btn--design:hover,
-.btn--design:focus {
-    background-color: var(--btn-backgnd-cl);
-    color: var(--btn-link-cl);
-}
-
-.btn-marketing {
-
-
-
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-
-
-
-    background: var(--txt-backgnd-logo-cl);
-    border: 1px solid var(--color-iris);
-    border-radius: 4px;
-
-
-
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24 /16);
-
-    align-items: center;
-    text-align: center;
-
-    color: var(--btn-backgnd-cl);
-
-    cursor: pointer;
-}
-
-.btn-marketing:hover,
-.btn-marketing:focus {
-    background-color: var(--btn-backgnd-cl);
-    color: var(--btn-link-cl);
-}
 
 .menu-portfolio {
     display: flex;
@@ -609,8 +462,9 @@ img {
 
 
 .brd-clr {
-    border: 1px solid var(--color-iris);
+    border: 1px solid var(--color-cornflower);
     border-top: none;
+    padding: 32px 0 32px 16px;
 }
 
 
