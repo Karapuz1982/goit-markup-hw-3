@@ -206,17 +206,17 @@ img {
 
 .model-btn {
 
-
+    font-family: var(--prymery-fonts);
     padding: 16px 32px;
     background: var(--color-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
+    border: none;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
     text-transform: uppercase;
-
+    text-align: center;
     align-items: center;
 
     cursor: pointer;
@@ -339,25 +339,15 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-
-
+.card-name {
+    text-align: center;
+    padding: 32px;
+}
 
 .name {
-    text-align: center;
-    margin-top: 32px;
+
     margin-bottom: 8px;
 }
-
-.profesion {
-    text-align: center;
-    margin-bottom: 32px;
-}
-
-
-
-
-
-
 
 /* ============footer================== */
 .logo-footer {
@@ -394,13 +384,8 @@ img {
 
 }
 
-
-
-
 .slogan {
     width: 264px;
-    height: 72px;
-
     font-weight: 400;
     font-size: 16px;
     line-height: calc(24 / 16);
@@ -418,6 +403,10 @@ img {
 
 .filtr-container {
     padding-top: 109px;
+    padding-bottom: 120px;
+}
+
+.button-filtr {
     padding-bottom: 59px;
 }
 
@@ -473,9 +462,7 @@ img {
     flex-basis: calc(100%-2*24px/9);
 }
 
-.section-portfolio {
-    padding-bottom: 120px;
-}
+
 
 /* ===============/filtr=================== */
 /* =============footer portfolio========= */
